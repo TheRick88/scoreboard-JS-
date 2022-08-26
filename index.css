@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    margin: 8rem;
+    justify-content: space-around;
+    position: absolute;
+    width: 575px;
+    height: 385px;
+    background: #1B244A;
+
+    /* board-title-home */
+    
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+
+    color: #EEEEEE;
+
+}
+
+#home-score {
+    position: absolute;
+    width: 117px;
+    height: 120px;
+    left: 80px;
+    top: 35px;
+    background: #080001;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 107px;
+
+    text-align: center;
+
+    color: #F94F6D;
+}
+
+#guest-score {
+    position: absolute;
+    width: 117px;
+    height: 120px;
+    left: 375px;
+    top: 35px;
+    background: #080001;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 107px;
+
+    text-align: center;
+
+    color: #F94F6D;
+}
+
+button {
+
+    border-radius: 5px;
+    background: #1B244A;
+    border-color: white;
+    color: white;
+
+}
+
+#home-button {
+    position:absolute;
+    height: 35px;
+    width: 35px;
+    left: 82px;
+    top: 261px;
+    font-size: 1rem;
+}
+
+#home-button2 {
+    position:absolute;
+    height: 35px;
+    width: 35px;
+    left: 125px;
+    top: 261px;
+    font-size: 1rem;
+
+}
+
+#home-button3 {
+    position:absolute;
+    height: 35px;
+    width: 35px;
+    left: 168px;
+    top: 261px;
+    font-size: 1rem;
+
+}
+
+#home-buttong1 {
+    position:absolute;
+    height: 35px;
+    width: 35px;
+    left: 375px;
+    top: 261px;
+    font-size: 1rem;
+}
+
+#home-button2g2 {
+    position:absolute;
+    height: 35px;
+    width: 35px;
+    left: 418px;
+    top: 261px;
+    font-size: 1rem;
+
+}
+
+#home-button3g3 {
+    position:absolute;
+    height: 35px;
+    width: 35px;
+    left: 461px;
+    top: 261px;
+    font-size: 1rem;
+
+}
+
+#reset {
+    position:absolute;
+    height: 35px;
+    width: 100px;
+    left: 239px;
+    top: 320px;
+    font-size: 1rem;
+}
